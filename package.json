@@ -1,7 +1,7 @@
 {
-  "name": "afl-component-library",
-  "version": "1.0.0",
-  "description": "AFL Component Library",
+  "name": "@aurella/react-component-library",
+  "version": "0.0.1",
+  "description": "React Component Library",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Africa-FinTech-Ltd/afl.web.component_library.git"
+    "url": "git+https://github.com/Anurella/template-react-component-library.git"
   },
   "author": "AFL",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Africa-FinTech-Ltd/afl.web.component_library/issues"
+    "url": "https://github.com/Anurella/template-react-component-library/issues"
   },
-  "homepage": "https://github.com/Africa-FinTech-Ltd/afl.web.component_library#readme",
+  "homepage": "https://github.com/Anurella/template-react-component-library#readme",
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-react": "^7.16.7",
@@ -69,5 +69,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "styled-components": "4.3.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/anurella"
   }
 }

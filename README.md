@@ -1,6 +1,6 @@
-# AFL Component Library
+# Component Library
 
-a collection of components for AFL web applications
+A collection of components built
 
 ### Installation
 
