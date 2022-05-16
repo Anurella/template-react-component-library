@@ -22,6 +22,7 @@
     "dist",
     "storybook-static",
     "src/**/*.stories.tsx",
-    "src/**/*.test.tsx"
+    "src/**/*.test.tsx",
+    "rollup.config.js"
   ]
 }

@@ -24,6 +24,7 @@ export default {
     peerDepsExternal(),
     resolve(),
     commonjs(),
-    typescript({ useTsconfigDeclarationDir: true }),
+    terser(),
+    typescript({ tsconfig: "./tsconfig.json" }),
   ],
 };
